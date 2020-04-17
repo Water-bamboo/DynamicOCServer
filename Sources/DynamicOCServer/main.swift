@@ -24,9 +24,10 @@ import PerfectHTTPServer
 // This 'handler' function can be referenced directly in the configuration below.
 func handler(request: HTTPRequest, response: HTTPResponse) {
 	// Respond with a simple message.
-	response.setHeader(.contentType, value: "text/html")
-	response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
-	// Ensure that response.completed() is called when your processing is done.
+	response.setHeader(.contentType, value: "application/json")
+    response.appendBody(string: OCHotfixString.packString())
+    response.setHeader(.contentEncoding, value: "utf-8")
+    
 	response.completed()
 }
 
