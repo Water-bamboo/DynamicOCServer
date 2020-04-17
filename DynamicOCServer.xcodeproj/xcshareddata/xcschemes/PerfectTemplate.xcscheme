@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "PerfectTemplate::PerfectTemplate"
-               BuildableName = "PerfectTemplate"
-               BlueprintName = "PerfectTemplate"
-               ReferencedContainer = "container:PerfectTemplate.xcodeproj">
+               BuildableName = "DynamicOCServer"
+               BlueprintName = "DynamicOCServer"
+               ReferencedContainer = "container:DynamicOCServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "PerfectTemplate::PerfectTemplate"
-            BuildableName = "PerfectTemplate"
-            BlueprintName = "PerfectTemplate"
-            ReferencedContainer = "container:PerfectTemplate.xcodeproj">
+            BuildableName = "DynamicOCServer"
+            BlueprintName = "DynamicOCServer"
+            ReferencedContainer = "container:DynamicOCServer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>

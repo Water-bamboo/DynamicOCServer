@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PerfectTemplate::PerfectTemplate"
+               BlueprintIdentifier = "DynamicOCServer::DynamicOCServer"
                BuildableName = "DynamicOCServer"
                BlueprintName = "DynamicOCServer"
                ReferencedContainer = "container:DynamicOCServer.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "PerfectTemplate::PerfectTemplate"
+            BlueprintIdentifier = "DynamicOCServer::DynamicOCServer"
             BuildableName = "DynamicOCServer"
             BlueprintName = "DynamicOCServer"
             ReferencedContainer = "container:DynamicOCServer.xcodeproj">

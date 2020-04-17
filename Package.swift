@@ -3,14 +3,14 @@
 import PackageDescription
 
 let package = Package(
-	name: "PerfectTemplate",
+	name: "DynamicOCServer",
 	products: [
-		.executable(name: "PerfectTemplate", targets: ["PerfectTemplate"])
+		.executable(name: "DynamicOCServer", targets: ["DynamicOCServer"])
 	],
 	dependencies: [
 		.package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.0"),
 	],
 	targets: [
-		.target(name: "PerfectTemplate", dependencies: ["PerfectHTTPServer"])
+		.target(name: "DynamicOCServer", dependencies: ["PerfectHTTPServer"])
 	]
 )
